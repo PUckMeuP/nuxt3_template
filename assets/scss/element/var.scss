@@ -1,0 +1,11 @@
+$-colors: (
+  'primary': ('base': #E76E26,
+  ),
+);
+$text-color:(
+  'primary': #000,
+  'regular': #000,
+);
+@forward 'element-plus/theme-chalk/src/common/var.scss' with ($colors: $-colors,$text-color:$text-color);
+
+

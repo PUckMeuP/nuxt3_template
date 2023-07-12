@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.7",
+    "vue-lazyload": "^3.0.0"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.5",
+    "@pinia/nuxt": "^0.4.11",
+    "@types/node": "^20.4.1",
+    "nuxt": "^3.6.2",
+    "sass": "^1.63.4"
+  }
+}
